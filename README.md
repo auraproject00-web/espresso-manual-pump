@@ -13,6 +13,10 @@ Web MVP untuk mencatat dan mempelajari seduhan Wacaco Minipresso GR2.
 
 Buka `index.html` di browser modern. Tidak ada build step atau dependency eksternal. Di Vercel, deploy sebagai static site dengan root directory repo.
 
+## Preview
+
+Setelah repo terhubung ke Vercel, push ke branch selain `main` akan membuat Preview Deployment. Push ke `main` akan memperbarui Production.
+
 ## Data
 
 Log disimpan di `localStorage` browser dan tidak tersinkron antar perangkat. Ekspor JSON secara berkala jika ingin menyimpan cadangan.
